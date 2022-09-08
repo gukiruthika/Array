@@ -8,6 +8,7 @@ public class GrandChildren {
 	public static void main(String[] args) {
 		Scanner sn = new Scanner(System.in);
 		String[][] names = {{"luke","shaw"},{"wayne","rooney"},{"rooney","ronaldo"},{"shaw","rooney"}};
+		System.out.println(Arrays.deepToString(names));
 		String in = sn.next();
 		int count=0;
 		for(int i=0; i<names.length; i++) {
